@@ -105,7 +105,7 @@ def movies_with_directors_set(source)
   while source.length > counter do
   current_director_portfolio = movies_with_director_key(source[counter][:name], source[counter][:movies])
   final_array.push(current_director_portfolio)
-  q
+  counter += 1
   end
 final_array
 end
